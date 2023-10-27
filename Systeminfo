@@ -1,0 +1,95 @@
+#Comando Systeminfo
+El comando siguiente te proporciona información de la configuración de tu ordenador.
+En esta lista verás datos tanto del sistema operativo como del hardware, como puede ser la fecha de instalación original de Windows, la hora del último arranque,
+la versión de su BIOS, la memoria total, la memoria disponible, las revisiones instaladas, las configuraciones de la tarjeta de red y más
+
+Microsoft Windows [Versión 10.0.19045.3448]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Alexandra>systeminfo
+
+Nombre de host:                            DESKTOP-3A18FJS
+Nombre del sistema operativo:              Microsoft Windows 10 Pro Education
+Versión del sistema operativo:             10.0.19045 N/D Compilación 19045
+Fabricante del sistema operativo:          Microsoft Corporation
+Configuración del sistema operativo:       Estación de trabajo independiente
+Tipo de compilación del sistema operativo: Multiprocessor Free
+Propiedad de:                              Alexandra
+Organización registrada:                   N/D
+Id. del producto:                          00379-27619-06548-AAOEM
+Fecha de instalación original:             20/08/2023, 11:03:49 a. m.
+Tiempo de arranque del sistema:            29/09/2023, 7:43:38 p. m.
+Fabricante del sistema:                    HP
+Modelo el sistema:                         HP 240 14 inch G9 Notebook PC
+Tipo de sistema:                           x64-based PC
+Procesador(es):                            1 Procesadores instalados.
+                                           [01]: Intel64 Family 6 Model 156 Stepping 0 GenuineIntel ~1114 Mhz
+Versión del BIOS:                          Insyde F.08, 1/11/2022
+
+#VALOR FRECUENCIA
+El valor de una frecuencia en un procesador se mide en Hertz (Hz) y representa la cantidad de ciclos por segundo que el procesador puede ejecutar. 
+El valor específico puede variar dependiendo del modelo y la configuración del procesador.
+
+#MEMORIA FISICA 
+Se refiere a la memoria RAM
+Cantidad total de memoria física:          3.912 MB
+Memoria física disponible:                 1.014 MB
+
+#MEMORIA VIRTUAL 
+ Espacio ubicado en el disco duro 
+Memoria virtual: tamaño máximo:            5.329 MB
+Memoria virtual: disponible:               932 MB
+Memoria virtual: en uso:                   4.397
+
+#Tarjetas de Red
+ "adaptadores"
+ 4 Tarjetas de interfaz de red instaladas.
+                                           [01]: Realtek RTL8822CE 802.11ac PCIe Adapter
+                                                 Nombre de conexión: Wi-Fi
+                                                 Estado:             Medios desconectados
+                                           [02]: Realtek PCIe GbE Family Controller
+                                                 Nombre de conexión: Ethernet
+                                                 DHCP habilitado:    Sí
+                                                 Servidor DHCP:      172.29.40.1
+                                                 Direcciones IP
+                                                 [01]: 172.29.41.164
+                                                 [02]: fe80::f3ac:45:66d:9865
+                                           [03]: Bluetooth Device (Personal Area Network)
+                                                 Nombre de conexión: Conexión de red Bluetooth
+                                                 Estado:             Medios desconectados
+                                           [04]: Microsoft Wi-Fi Direct Virtual Adapter
+                                                 Nombre de conexión: Conexión de área local* 2
+                                                 DHCP habilitado:    No
+                                                 Direcciones IP
+                                                 [01]: 192.168.137.1
+                                                 [02]: fe80::7fe0:1fb5:18b8:ff39
+#COMANDOS LINUX
+
+#touch
+
+Nos sirve para crear un nuevo archivo 
+--help nos sirve para conocer informacion del comando 
+por ejemplo
+touch--c (do not create any files) //no crea ningun archivo 
+
+# du 
+Sirve para ver cuanto espacio ocupa un archivo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
